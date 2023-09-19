@@ -1,0 +1,33 @@
+/* Tarea Modulo 1 Unidad 4 Curso 999190840 */
+body{background-color:#F2BE4E}
+.contenedor{
+    display: flex;
+    width: 800px;
+}
+.izquierdo{
+    background-color: rgb(48, 48, 209);
+    color: rgb(242, 237, 129);
+    width: 400px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    padding: 5px;
+}
+.izquierdo p{
+    color: white;
+}
+.izquierdo li{
+    color: white;
+}
+.izquierdo img{
+    position: relative;
+    left: 25%;
+}
+#derecho{
+    width: 400px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    padding: 5px;
+}
+#derecho h2{
+    background-color: bisque;
+}
