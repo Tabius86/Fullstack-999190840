@@ -1,0 +1,42 @@
+/* Tarea Modulo 2 Unidad 2 Curso 999190840 */
+
+.contenedor{
+	background-color: white;
+	display: flex;
+    justify-content: space-between;
+	border: 1px solid #000000;
+}
+
+.item1{
+    display: flex;
+	background-color: red;
+	width: 100px;
+	height: 100px;
+    align-items: center;
+    justify-content: center;
+	font-size: 30px;
+    color: white;
+    margin:0px;
+}
+.item2{
+    display: flex;
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+    align-items: center;
+    justify-content: center;
+	font-size: 30px;
+    color: white;
+    margin:0px;
+}
+.item3{
+    display: flex;
+	background-color: green;
+	width: 100px;
+	height: 100px;
+    align-items: center;
+    justify-content: center;
+	font-size: 30px;
+    color: white;
+    margin:0px;
+}
