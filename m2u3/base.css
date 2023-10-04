@@ -1,0 +1,81 @@
+/* Tarea Modulo 2 Unidad 3 Curso 999190840 */
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+nav {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+section {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+}
+
+@media only screen and (max-width: 800px){
+	#contenedor {
+		width: 600px;
+		background: #8FA68E;
+		/*margin-right:auto;
+		margin-left:auto;
+		overflow: hidden;*/
+		margin: 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	nav {
+		background: #e6973d;
+		/*float: left;*/
+		align-items: center;
+		margin: 0px;
+		width: 600px;
+	}
+	ul {
+		list-style-type:none;
+	}
+	a {
+		display: flex;
+		color: black;
+	}
+	section {
+		background: #F1F2C0;
+		/*float: left;*/
+		margin: 0px;
+		width: 600px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid #000000;
+	}
+	aside {
+		background: #CCC59E;
+		/*float: right;*/
+		width: 600px;
+		margin: 0px;
+	}	
+}
