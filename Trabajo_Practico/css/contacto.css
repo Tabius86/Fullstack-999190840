@@ -1,0 +1,79 @@
+body{
+    background-image: url(../img/fondo1920.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+@media screen and (max-width: 800px) {
+    body{
+        background-image: url(../img/fondo800.jpg);
+    }
+    header{
+        background-image: url(../img/cabecera800.png);
+    }
+}
+@media screen and (max-width: 480px) {
+    body{
+        background-image: url(../img/fondo480.jpg);
+    }
+    header{
+        background-image: url(../img/cabecera800.png);
+        height:fit-content;
+        font-size: small;
+        height: 100px;
+    }
+    nav{
+        position: fixed;
+        top: 80px;
+        width: 100%;
+        height: 38px;
+    }
+    nav ul{
+        list-style: none;
+        overflow:hidden;
+    }
+}
+/*--------------------------------Diseño Pagina Contactos----------------------------*/
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: greenyellow;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 16px;
+    padding: 40px;
+}
+.container{
+    width: 100%;
+    display: grid;
+    gap: 16px;
+    grid-auto-columns: 100%;
+}
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.input{
+    font-family: inherit;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 4px;
+}
+.input-text{
+    resize: none;
+    padding: 10px 10px 50px;
+    margin-bottom: 8px;
+}
+.boton_enviar{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    cursor: pointer;
+}

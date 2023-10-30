@@ -1,0 +1,68 @@
+body{
+    background-image: url(../img/index1920.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.principal{
+    margin-bottom: 80px;
+}
+/*--------------------------------Diseño Pagina Principal----------------------------*/
+.Contenido{
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+}
+.Presentacion{
+    text-align: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Articulos{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+.Articulo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Articulo img{
+    border-radius: 200px 200px 200px 200px;
+    width: 100px;
+    height:100px;
+    object-fit: cover;
+}
+@media screen and (max-width: 800px) {
+    body{
+        background-image: url(../img/index800.jpg);
+    }
+    header{
+        background-image: url(../img/cabecera800.png);
+    }
+}
+@media screen and (max-width: 480px) {
+    body{
+        background-image: url(../img/index480.jpg);
+    }
+    header{
+        background-image: url(../img/cabecera800.png);
+        height:fit-content;
+        font-size: small;
+        height: 100px;
+    }
+    nav{
+        position: fixed;
+        top: 80px;
+        width: 100%;
+        height: 38px;
+    }
+    nav ul{
+        list-style: none;
+        overflow:hidden;
+    }
+}
