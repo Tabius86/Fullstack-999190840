@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+  </head>
+
+  <body>
+    <script>
+      let conjunto_numeros = [4, 10, 3, 5, 20, 1, 6];
+      console.log(
+        "El numero total de valores dentro del array es: " +
+          conjunto_numeros.length
+      );
+      let maximo = 0;
+      if (conjunto_numeros.length > 0) {
+        maximo = conjunto_numeros[0];
+        console.log("El valor del primer numero es: " + maximo);
+      }
+      for (let i = 0; i < conjunto_numeros.length; i++) {
+        if (maximo < conjunto_numeros[i]) {
+          maximo = conjunto_numeros[i];
+          console.log("Maximo cambia a: " + maximo);
+        }
+      }
+      document.write("El maximo valor dentro del array es: " + maximo);
+    </script>
+  </body>
+</html>
