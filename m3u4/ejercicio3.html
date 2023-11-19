@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Tarea Modulo 3 Unidad 4 Curso 999190840-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ejercicio3</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var alumnos = [
+        { nombre: "Juan Gomez", nota: 7 },
+        { nombre: "Pedro Rodriguez", nota: 4 },
+        { nombre: "Roxana García", nota: 8 },
+        { nombre: "Luciano Lopez", nota: 5 },
+        { nombre: "Fernanda Gimenez", nota: 6 },
+        { nombre: "Florencia Martinez", nota: 10 },
+        { nombre: "Raul Sanchez", nota: 7 },
+        { nombre: "Sandra Figueroa", nota: 8 },
+      ];
+      function imprimirDatos(cadena) {
+        for (let i = 0; i < cadena.length; i++) {
+          const name = cadena[i].nombre;
+          const note = cadena[i].nota;
+          document.write(`Alumno: ${name}, Nota: ${note}<br>`);
+        }
+      }
+      document.write("Los datos son: <br>");
+      imprimirDatos(alumnos);
+      document.write("-----------------------------------<br>");
+      document.write("Los alumnos aprobados son: <br>");
+      let aprobados = alumnos.filter((alumno) => alumno.nota >= 7);
+      imprimirDatos(aprobados);
+    </script>
+  </body>
+</html>
