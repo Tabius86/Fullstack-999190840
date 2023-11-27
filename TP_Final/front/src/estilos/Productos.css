@@ -1,6 +1,6 @@
 /*----------------------------Diseño pagina de Productos-----------------------*/
 body{
-    background-image: url(/public/img/productos1920.jpg);
+    background-image: url(/public/img/fondo1920.jpg);
 }
 .grilla{
     display:flex;
