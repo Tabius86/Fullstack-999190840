@@ -1,0 +1,29 @@
+/*----------------------------Diseño pagina de Posts-----------------------*/
+body{
+    background-image: url(/public/img/post1920.jpg);
+}
+
+.principal{
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+/*----------------------- Seccion Posts----------------------------*/
+.Articulo{
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.Articulo img{
+    border-radius: 16px;
+    display: block;
+    max-width: 150px;
+    max-height: 120px;
+}
+.contenedor a{
+    color: lightblue;
+}

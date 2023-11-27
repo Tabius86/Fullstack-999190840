@@ -1,0 +1,51 @@
+body{
+    background-image: url(/public/img/fondo1920.jpg);
+}
+/*--------------------------------Diseño Pagina Contactos----------------------------*/
+.principal{
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-color: greenyellow;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 16px;
+    padding: 40px;
+}
+.container{
+    width: 100%;
+    display: grid;
+    gap: 16px;
+    grid-auto-columns: 100%;
+}
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.input{
+    font-family: inherit;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 4px;
+}
+.input-text{
+    resize: none;
+    padding: 10px 10px 50px;
+    margin-bottom: 8px;
+}
+.boton_enviar{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    cursor: pointer;
+}

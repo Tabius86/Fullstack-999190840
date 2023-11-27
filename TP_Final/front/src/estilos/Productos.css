@@ -1,0 +1,94 @@
+/*----------------------------Diseño pagina de Productos-----------------------*/
+body{
+    background-image: url(/public/img/productos1920.jpg);
+}
+.grilla{
+    display:flex;
+    justify-content: space-around;
+    column-gap: 400px;
+    flex-wrap: wrap;
+    margin-top: -180px;
+}
+#contenedor1{
+    height: 200px;
+    width: 300px; 
+    margin-top: 200px;
+}
+#contenedor2{
+    height: 200px;
+    width: 300px; 
+    margin-top: 200px;
+}
+#contenedor3{
+    height: 200px;
+    width: 300px; 
+    margin-top: 200px;
+}
+#contenedor4{
+    height: 200px;
+    width: 300px; 
+    margin-top: 200px;
+}
+#contenedor5{
+    height: 200px;
+    width: 300px; 
+    margin-top: 200px;
+}
+#contenedor6{
+    height: 200px;
+    width: 300px; 
+    margin-top: 200px;
+}
+.carrusel{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+}
+.item{
+    height: 100%;
+    position: relative;
+}
+.tarjeta{
+    height: 100%;
+    text-align: center;
+}
+.tarjeta img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+.flechas{
+    position: absolute;
+    display: flex;
+    top: 0;
+    height: 100%;
+    width: 94%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    color: white;
+}
+.a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.contenedorpuntos{
+    height: 20px;
+    width: 300px;
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+}
+.contenedorpuntos a{
+    text-decoration: none;
+    color: white;
+}
+.contenedordesc{
+    text-align: center;
+    margin-top: 0px;
+    height: 20px;
+    width: 300px;
+    color: white;
+}

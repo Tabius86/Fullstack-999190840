@@ -1,0 +1,28 @@
+/*--------------------------------Diseño Pagina Principal----------------------------*/
+.Contenido{
+    text-align: center;
+    color: white;
+}
+.Presentacion{
+    text-align: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Articulos{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+.Articulo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Articulo img{
+    border-radius: 200px 200px 200px 200px;
+    width: 100px;
+    height:100px;
+    object-fit: cover;
+}
