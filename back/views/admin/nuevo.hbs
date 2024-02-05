@@ -1,0 +1,26 @@
+<div class="contenedorFormulario" style="display:flex; justify-content: center; margin-left: 250px; width: 100%">
+    <div class="row" style="min-width: 100vh;">
+        <form action="/admin/productos/nuevo" method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="inputDesc" class="form-label" style="color: white">Nombre del Producto</label>
+                <input type="text" class="form-control" id="inputDesc" placeholder="Ingrese el nombre del producto" name="descripcion" style="width: 350px;">
+            </div>
+            <div class="mb-3">
+                <label for="inputCantidad" class="form-label" style="color: white">Cantidad en stock</label>
+                <input type="text" class="form-control" id="inputCantidad" placeholder="Ingrese la cantidad" name="cantidad" style="width: 350px;">
+            </div>
+            <div class="mb-3">
+                <label for="inputPrecio" class="form-label" style="color: white">Precio</label>
+                <input type="text" class="form-control" id="inputPrecio" placeholder="Ingrese el precio" name="precio" style="width: 350px;">
+            </div>
+            <div class="mb-3">
+                <label style="color: white">Imagen: <br/>
+                <input type="file" name="imagen" id="imagen" /></label>
+            </div>
+            <button type="submit" class="btn btn-primary" style="background-color:greenyellow; color:blue">Ingresar</button>
+        </form>
+        {{#if error}}
+        <p style="color: red; font-size:larger; width: 100%; justify-content: center">{{message}}</p>
+        {{/if}}
+    </div>
+</div>

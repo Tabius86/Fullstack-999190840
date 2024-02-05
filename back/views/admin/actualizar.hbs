@@ -1,0 +1,32 @@
+<div class="contenedorFormulario" style="display:flex; justify-content: center; margin-left: 250px; width: 100%">
+    <div class="row" style="min-width: 100vh;">
+        <form action="/admin/productos/actualizar" method="post" enctype="multipart/form-data">
+            <input type="hidden" value="{{datosproducto.codigo}}" name="codigo">
+            <div class="mb-3">
+                <label for="inputDesc" class="form-label" style="color: white">Nombre del Producto</label>
+                <input type="text" class="form-control" id="inputDesc" value="{{datosproducto.descripcion}}" name="descripcion" style="width: 350px;">
+            </div>
+            <div class="mb-3">
+                <label for="inputCantidad" class="form-label" style="color: white">Cantidad en stock</label>
+                <input type="text" class="form-control" id="inputCantidad" value="{{datosproducto.cantidad}}" name="cantidad" style="width: 350px;">
+            </div>
+            <div class="mb-3">
+                <label for="inputPrecio" class="form-label" style="color: white">Precio</label>
+                <input type="text" class="form-control" id="inputPrecio" value="{{datosproducto.precio}}" name="precio" style="width: 350px;">
+            </div>
+            <div class="mb-3">
+                <p>
+                    <label style="color: white;">Imagen: <input type="file" name="imagen" id="imagen" /></label>
+                </p>
+                <p>
+                    <label style="color: white;"><input type="checkbox" name="img_delete" id="img_delete" value="1"/>Desea eliminar la imagen actual? </label>
+                    <input type="hidden" name="img_original" value="{{datosproducto.id_img}}">
+                </p>
+            </div>
+            <button type="submit" class="btn btn-primary" style="background-color:greenyellow; color:blue">Actualizar</button>
+        </form>
+        {{#if error}}
+        <p style="color: red; font-size:larger; width: 100%; justify-content: center">{{message}}</p>
+        {{/if}}
+    </div>
+</div>

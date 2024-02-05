@@ -1,0 +1,21 @@
+/*--------------------------------Diseño Pagina Principal----------------------------*/
+.Contenido{
+    text-align: center;
+    color: white;
+}
+.Nota{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Nota h2 {
+    margin-top: 120px;
+    font-size: 40px;
+}
+
+.Nota p {
+    font-size: 30px;
+}

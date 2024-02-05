@@ -1,0 +1,34 @@
+/*----------------------------Diseño pagina de Posts-----------------------*/
+
+.main{
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+/*----------------------- Seccion Posts----------------------------*/
+.notas{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+
+.nota{
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.nota img{
+    border-radius: 16px;
+    display: block;
+    max-width: 150px;
+    max-height: 120px;
+}
+.contenedor a{
+    color: lightblue;
+}

@@ -1,0 +1,48 @@
+nav{
+    background-color: greenyellow;
+    position: fixed;
+    top: 95px;
+    width: 100%;
+  }
+  nav ul{
+    list-style: none;
+  }
+  nav ul li{
+    float: left;
+    flex-grow: 1;
+  }
+  nav ul li a{
+    color: blue;
+    text-decoration: none;
+    display: block;
+    padding-top: 8px;
+    text-align: center;
+  }
+  nav ul li a:hover{
+    color: lightblue;
+  }
+  nav{
+    background-color: greenyellow;
+    margin-bottom: 0;
+  }
+  nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0px 20px 0px;
+    display: flex;
+  }
+  nav ul li{
+    flex-grow: 1;
+  }
+  nav ul li a{
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  }
+  nav ul li a:hover{
+    color: lightblue;
+  }
+  nav ul li a.active{
+    background-color: rgb(146, 228, 146);
+  }

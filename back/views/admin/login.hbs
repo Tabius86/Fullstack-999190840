@@ -1,0 +1,18 @@
+<div class="contenedorFormulario" style="display:flex; justify-content: center; margin-left: 250px; width: 100%">
+    <div class="row" style="min-width: 100vh;">
+        <form action="/admin/login" method="post">
+            <div class="mb-3">
+                <label for="inputUser" class="form-label" style="color: white">Usuario</label>
+                <input type="text" class="form-control" id="inputUser" placeholder="Usuario" name="usuario" style="width: 350px;">
+            </div>
+            <div class="mb-3">
+                <label for="inputPassword" class="form-label" style="color: white">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" name="clave" style="width: 350px;">
+            </div>
+            <button type="submit" class="btn btn-primary" style="background-color:greenyellow; color:blue">Ingresar</button>
+        </form>
+        {{#if error}}
+        <p style="color: red; font-size:larger; width: 100%; justify-content: center">Usuario y/o contraseña incorrectos</p>
+        {{/if}}
+    </div>
+</div>
