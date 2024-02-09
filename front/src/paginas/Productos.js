@@ -16,9 +16,9 @@ const Productos = (props) => {
     }, []);
     return (
         <main>
-            <div style={{display: "grid", justifyContent: "space-around", columnGap: "400px", flexWrap: "wrap"}}>
+            <div>
                 <h1 style={{color: "white", marginTop: "130px", marginBottom: "-100px"}}>Hacenos tu pedido al whatsapp: 15-XXXX-XXXX</h1>
-                <section>
+                <section style={{display:"flex", flexWrap:"wrap"}}>
                     {loading ? (
                             <p>Cargando ...</p>
                         ) : (
