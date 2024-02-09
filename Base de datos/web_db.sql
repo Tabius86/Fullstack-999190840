@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 05-02-2024 a las 15:00:08
+-- Tiempo de generación: 09-02-2024 a las 16:23:56
 -- Versión del servidor: 10.4.27-MariaDB
 -- Versión de PHP: 8.2.0
 
@@ -41,10 +41,10 @@ CREATE TABLE `productos` (
 
 INSERT INTO `productos` (`codigo`, `descripcion`, `cantidad`, `precio`, `id_img`) VALUES
 (1, 'pala', 8, 2500, 'z9evfqxckbxtzo7qpzng'),
-(2, 'manguera', 10, 5000, NULL),
-(3, 'tijera de podar', 5, 7500, NULL),
+(2, 'manguera', 10, 5000, 'g9bxhjdklezgaohduc1z'),
 (5, 'fumigador', 5, 7000, NULL),
-(7, 'Rastrillo de mano', 8, 4560, 'wq2kzpvdriwp5ixa98mg');
+(8, 'Producto de muestra', 5, 1500, 'mhnk4ux3hecpsoi5xgey'),
+(9, 'prueba', 8, 1200, 'av8a0bf7mvyyttdw6qeu');
 
 -- --------------------------------------------------------
 
@@ -90,7 +90,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `codigo` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `codigo` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
